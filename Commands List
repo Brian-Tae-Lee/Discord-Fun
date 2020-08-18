@@ -1,0 +1,27 @@
+?sit	
+Here's your beanbag, {user}. 
+{choose:1;2;3}
+{!role {user} Bean Bag {choice}}	
+
+?getup	
+Oh, you got off, {user}. Thanks for not hoarding!
+{!role {user} -Bean Bag 1,-Bean Bag 2,-Bean Bag 3}	
+
+?wakeup	
+Hey, {user}, GET UP! 
+Hey, {user}, it's {time12}!
+You don't want to miss going to the Exchange now do you?	
+
+?sleep	
+{choose:COVID-19;beanbag bugs;homework deadlines}
+Nighty night, {user}. Don't let the {choice} bite.	
+
+?cry	
+{user}, why are you crying? Get off the beanbag, you're going to make it wet with your tears.
+{!role {user} -Bean Bag 1,-Bean Bag 2,-Bean Bag 3}	
+
+?move	
+{user}, you may or may not have moved to another beanbag. Are you lazy? Does the weight of your sins weigh you down? You don't know, but maybe it prevented you from switching.
+{!role {user} -Bean Bag 1,-Bean Bag 2,-Bean Bag 3}
+{choose:1;2;3}
+{!role {user} Bean Bag {choice}}
